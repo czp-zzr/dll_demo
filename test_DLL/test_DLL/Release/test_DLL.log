@@ -1,0 +1,29 @@
+﻿生成启动时间为 2022/11/1 17:55:12。
+     1>项目“D:\a_vs_workspace\test_DLL\test_DLL\test_DLL.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\test_DLL.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\App\VS2010\VC\bin\CL.exe /c /I"D:\App\opencv-2.4.13.7\build\install\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\a_vs_workspace\test_dll\test_dll\Video_thread.h(44): warning C4251: “videoThread::capture”: class“cv::VideoCapture”需要有 dll 接口由 class“videoThread”的客户端使用
+                 D:\App\opencv-2.4.13.7\build\install\include\opencv2\highgui\highgui.hpp(205) : 参见“cv::VideoCapture”的声明
+     1>d:\a_vs_workspace\test_dll\test_dll\Video_thread.h(45): warning C4251: “videoThread::frame”: class“cv::Mat”需要有 dll 接口由 class“videoThread”的客户端使用
+                 D:\App\opencv-2.4.13.7\build\install\include\opencv2\core\core.hpp(1713) : 参见“cv::Mat”的声明
+     1>d:\a_vs_workspace\test_dll\test_dll\Video_thread.h(46): warning C4251: “videoThread::outputFrame”: class“cv::Mat”需要有 dll 接口由 class“videoThread”的客户端使用
+                 D:\App\opencv-2.4.13.7\build\install\include\opencv2\core\core.hpp(1713) : 参见“cv::Mat”的声明
+       Link:
+         D:\App\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\a_vs_workspace\test_DLL\Release\test_DLL.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\App\opencv-2.4.13.7\build\install\x86\vc10\lib" MFC_DLL_demo.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib opencv_nonfree2413.lib opencv_objdetect2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_videostab2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\test_DLL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\a_vs_workspace\test_DLL\Release\test_DLL.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\a_vs_workspace\test_DLL\Release\test_DLL.lib" /MACHINE:X86 Release\main.obj
+            正在创建库 D:\a_vs_workspace\test_DLL\Release\test_DLL.lib 和对象 D:\a_vs_workspace\test_DLL\Release\test_DLL.exp
+         正在生成代码
+         已完成代码的生成
+         test_DLL.vcxproj -> D:\a_vs_workspace\test_DLL\Release\test_DLL.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\a_vs_workspace\test_DLL\Release\test_DLL.exe;#1" /manifest Release\test_DLL.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\test_DLL.unsuccessfulbuild”。
+         正在对“Release\test_DLL.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\a_vs_workspace\test_DLL\test_DLL\test_DLL.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.16

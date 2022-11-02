@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_DLL", "test_DLL\test_DLL.vcxproj", "{66BAAF94-2623-4592-984A-150C949212F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFC_DLL_demo", "..\MFC_DLL_demo\MFC_DLL_demo\MFC_DLL_demo.vcxproj", "{CB52B43B-0274-45A6-937B-1C1D2007BF46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66BAAF94-2623-4592-984A-150C949212F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{66BAAF94-2623-4592-984A-150C949212F8}.Debug|Win32.Build.0 = Debug|Win32
+		{66BAAF94-2623-4592-984A-150C949212F8}.Release|Win32.ActiveCfg = Release|Win32
+		{66BAAF94-2623-4592-984A-150C949212F8}.Release|Win32.Build.0 = Release|Win32
+		{CB52B43B-0274-45A6-937B-1C1D2007BF46}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB52B43B-0274-45A6-937B-1C1D2007BF46}.Debug|Win32.Build.0 = Debug|Win32
+		{CB52B43B-0274-45A6-937B-1C1D2007BF46}.Release|Win32.ActiveCfg = Release|Win32
+		{CB52B43B-0274-45A6-937B-1C1D2007BF46}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

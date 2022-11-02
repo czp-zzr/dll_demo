@@ -1,0 +1,47 @@
+﻿生成启动时间为 2022/11/1 17:45:23。
+     1>项目“D:\a_vs_workspace\MFC_DLL_demo\MFC_DLL_demo\MFC_DLL_demo.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\MFC_DLL_demo.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\MFC_DLL_demo.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\App\VS2010\VC\bin\CL.exe /c /I"D:\App\opencv-2.4.13.7\build\install\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\MFC_DLL_demo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\App\VS2010\VC\bin\CL.exe /c /I"D:\App\opencv-2.4.13.7\build\install\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\MFC_DLL_demo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MFC_DLL_demo.cpp Video_thread.cpp
+         MFC_DLL_demo.cpp
+     1>d:\a_vs_workspace\mfc_dll_demo\mfc_dll_demo\Video_thread.h(44): warning C4251: “videoThread::capture”: class“cv::VideoCapture”需要有 dll 接口由 class“videoThread”的客户端使用
+                 D:\App\opencv-2.4.13.7\build\install\include\opencv2\highgui\highgui.hpp(205) : 参见“cv::VideoCapture”的声明
+     1>d:\a_vs_workspace\mfc_dll_demo\mfc_dll_demo\Video_thread.h(45): warning C4251: “videoThread::frame”: class“cv::Mat”需要有 dll 接口由 class“videoThread”的客户端使用
+                 D:\App\opencv-2.4.13.7\build\install\include\opencv2\core\core.hpp(1713) : 参见“cv::Mat”的声明
+     1>d:\a_vs_workspace\mfc_dll_demo\mfc_dll_demo\Video_thread.h(46): warning C4251: “videoThread::outputFrame”: class“cv::Mat”需要有 dll 接口由 class“videoThread”的客户端使用
+                 D:\App\opencv-2.4.13.7\build\install\include\opencv2\core\core.hpp(1713) : 参见“cv::Mat”的声明
+     1>MFC_DLL_demo.cpp(91): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\App\VS2010\VC\include\time.inl(112) : 参见“localtime”的声明
+         Video_thread.cpp
+     1>d:\a_vs_workspace\mfc_dll_demo\mfc_dll_demo\Video_thread.h(44): warning C4251: “videoThread::capture”: class“cv::VideoCapture”需要有 dll 接口由 class“videoThread”的客户端使用
+                 D:\App\opencv-2.4.13.7\build\install\include\opencv2\highgui\highgui.hpp(205) : 参见“cv::VideoCapture”的声明
+     1>d:\a_vs_workspace\mfc_dll_demo\mfc_dll_demo\Video_thread.h(45): warning C4251: “videoThread::frame”: class“cv::Mat”需要有 dll 接口由 class“videoThread”的客户端使用
+                 D:\App\opencv-2.4.13.7\build\install\include\opencv2\core\core.hpp(1713) : 参见“cv::Mat”的声明
+     1>d:\a_vs_workspace\mfc_dll_demo\mfc_dll_demo\Video_thread.h(46): warning C4251: “videoThread::outputFrame”: class“cv::Mat”需要有 dll 接口由 class“videoThread”的客户端使用
+                 D:\App\opencv-2.4.13.7\build\install\include\opencv2\core\core.hpp(1713) : 参见“cv::Mat”的声明
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\MFC_DLL_demo.res" MFC_DLL_demo.rc 
+       Link:
+         D:\App\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\a_vs_workspace\test_DLL\Release\MFC_DLL_demo.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\App\opencv-2.4.13.7\build\install\x86\vc10\lib" opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib opencv_nonfree2413.lib opencv_objdetect2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_videostab2413.lib /DEF:".\MFC_DLL_demo.def" /MANIFEST /ManifestFile:"Release\MFC_DLL_demo.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\a_vs_workspace\test_DLL\Release\MFC_DLL_demo.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\a_vs_workspace\test_DLL\Release\MFC_DLL_demo.lib" /MACHINE:X86 /DLL Release\MFC_DLL_demo.res
+         Release\MFC_DLL_demo.obj
+         Release\stdafx.obj
+         Release\Video_thread.obj
+            正在创建库 D:\a_vs_workspace\test_DLL\Release\MFC_DLL_demo.lib 和对象 D:\a_vs_workspace\test_DLL\Release\MFC_DLL_demo.exp
+         正在生成代码
+         已完成代码的生成
+         MFC_DLL_demo.vcxproj -> D:\a_vs_workspace\test_DLL\Release\MFC_DLL_demo.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\a_vs_workspace\test_DLL\Release\MFC_DLL_demo.dll;#2" /manifest Release\MFC_DLL_demo.dll.intermediate.manifest D:\App\VS2010\VC\Include\Manifest\dpiaware.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\MFC_DLL_demo.unsuccessfulbuild”。
+         正在对“Release\MFC_DLL_demo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\a_vs_workspace\MFC_DLL_demo\MFC_DLL_demo\MFC_DLL_demo.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.20
